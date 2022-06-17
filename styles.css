@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    background-color: #f3f6fb;
+    box-sizing: border-box;
+}
+span{
+    font-family:  'M PLUS Rounded 1c', sans-serif;
+}
+.search-div{
+    background-color: transparent;
+    height: fit-content;
+    width: 800px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+}
+.search-class{
+    background-color: #ffffff;
+    border: none;
+    width: 800px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 50px;
+    filter: drop-shadow(5px 5px 0.35rem #f4f4f4);
+}
+.search-class:focus{
+    outline: none !important;
+    border: 2px solid #008AFC;
+
+}
+
+.search-icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.region-div{
+    margin: auto;
+    text-align: center;
+}
+.region{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 10px;
+    filter: drop-shadow(5px 5px 0.35rem #f4f4f4);
+    cursor: pointer;
+    transition: all ease-in .1s;
+
+}
+
+.region:hover{
+    background-color: #008AFC;
+    color: #ffffff;
+}
+.search-icon i{
+    color: #008AFC;
+    border: none;
+    background-color: transparent;
+    font-size: 33px;
+    transition: all ease-in-out .2s;
+}
+.search-icon i:hover{
+    transform: scale(1.125);
+}
+.flags-section{
+    margin-top: 25px;
+    
+}
+.fav-div{
+    background-color: transparent;
+    margin-top: 2px;
+    margin-left: 40px;
+    border: none;
+}
+.fav-div i{
+    cursor: pointer;
+    font-size: 35px;
+    transition: all ease-out .2s;
+}
+.fav-div i:hover{
+    transform: scale(1.05);
+}
+.display-data{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.flag-data{
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    height: 100px;
+    width: 1200px;
+    border-radius: 15px;
+    display: inline-flex;
+    align-items: center;
+    padding: 30px;
+    transition: all ease-in-out .2s ;
+    justify-content: space-between;
+    filter: drop-shadow(5px 5px 0.35rem #f4f4f4);
+    
+}
+
+.flag-name{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+
+}
+
+.country-name{
+    background-color: transparent;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+}
+.flag-name:hover{
+    transform: scale(1.04);
+}
+.capital-country{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.capital-symbol{
+    margin-top: 1px;
+    margin-right: 2px;
+  
+}
+.capital-country span{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: transparent;
+    font-size: 20px;
+}
+.capital-country i{
+    background-color: transparent;
+}
+.line{
+    margin: 8px;
+    width: 2px;
+    height: 25px;
+    border: none;
+    background-color: black;
+}
+.box{
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    height: fit-content;
+    width: 1000px;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    transition: all ease-in-out .2s ;
+    justify-content: space-between;
+    filter: drop-shadow(5px 5px 0.35rem #f4f4f4);
+    overflow: hidden;
+    padding: 20px;
+}
+.capitol-div{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    background-color: transparent;
+    margin: auto;
+}
+.line-capitol{
+    height: 30px;
+    width: 3px;
+    border: none;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.capitol-div i{
+    background-color: transparent;
+    font-size: 27px;
+    margin-top: 1px;
+    margin-right: 3px;
+}
+.flag-detail{
+    border-radius: 15px;
+
+}
+.name-detail{
+    background-color: transparent;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 85px;
+    background-color: transparent;
+    line-height: 0px;
+}
+.population-div{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 10px;
+}
+.capitol-detail{
+    background-color: transparent;
+    font-size: 35px;
+}
+.region-detail{
+    background-color: transparent;
+    font-size: 35px;
+    margin-right: 20px;
+}
+.currency-detail{
+    display: grid;
+    background-color: transparent;
+}
+.name-currency-detail{
+    background-color: transparent;
+}
+.symbol-detail{
+    background-color: transparent;
+}
+.population-div{
+    background-color: transparent;
+    color: rgb(206, 41, 41);
+}
+.population-detail{
+    font-size: 20px;
+    background-color: transparent;
+}
+.population-icon{
+    background-color: transparent;
+}
+.population-icon i{
+    margin-top: 4px;
+    font-size: 25px;
+    background-color: transparent;
+}
+@media (max-width: 1285px) {
+    .flag-data{
+        width: 800px;
+    }
+}
+@media (max-width:875px){
+    .search-div{
+        width: 600px;
+    }
+    .search-class{
+        width: 600px;
+    }
+    .flag-data{
+        width: 600px;
+        padding: 15px;
+    }
+    .country-name{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .flag-name img{
+        width: 40px;
+    }
+    .capital-country span{
+        font-size: 15px;
+    }
+    .fav-div i{
+        font-size: 25px;
+    }
+}
